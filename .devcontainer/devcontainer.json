@@ -1,0 +1,28 @@
+{
+	"name": "kernel",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "passal-dev",
+	"workspaceFolder": "/workspace",
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true
+	},
+
+	"extensions": [
+		"ms-python.python",
+		"visualstudioexptteam.vscodeintellicode",
+		"donjayamanne.githistory",
+        "figma.figma-vscode-extension",
+        "Postman.postman-for-vscode",
+        "batisteo.vscode-django",
+        "docx-mt5.docx",
+        "cweijan.vscode-mysql-client2",
+		"ms-vsliveshare.vsliveshare"
+	],
+
+	"forwardPorts": [8000],
+	"remoteUser": "vscode"
+}
